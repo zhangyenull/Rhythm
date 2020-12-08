@@ -19,7 +19,7 @@
 //
 
 public extension UserDefaults {
-    static let appGroup = UserDefaults(suiteName: "group.com.jonny.lyrics")!
+    static let appGroup = UserDefaults(suiteName: "group.com.peter.lyrics")!
 }
 
 

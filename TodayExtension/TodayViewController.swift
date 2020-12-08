@@ -108,7 +108,7 @@ class TodayViewController : UIViewController, NCWidgetProviding {
     }()
     
     @objc private func openMainApp() {
-        extensionContext?.open(URL(string: "com.jonny.lyrics://")!)
+        extensionContext?.open(URL(string: "com.peter.lyrics://")!)
     }
     
     private func showNoMusicAccessButton() {

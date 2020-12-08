@@ -431,7 +431,7 @@ extension LyricsContainerViewController {
     }
     
     private func openDeepLinkURL(with queryValue: String, extensionContext: NSExtensionContext) {
-        var urlComponents = URLComponents(string: "com.jonny.lyrics://")!
+        var urlComponents = URLComponents(string: "com.peter.lyrics://")!
         urlComponents.queryItems = [URLQueryItem(name: DeepLink.queryName, value: queryValue)]
         
         let url = urlComponents.url!
