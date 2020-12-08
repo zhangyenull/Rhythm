@@ -98,8 +98,9 @@ public class LyricsNotificationController : NSObject {
     ///
     /// Returns true only if A. iOS Notification Center (a.k.a. Cover Sheet) is on the front and B. the device is not in sleep mode.
     var isPostable: Bool {
-        let observer = SpringboardNotificationObserver.shared
-        return observer.isCoverSheetVisible && !observer.isDeviceSleepModeEnabled
+        //let observer = SpringboardNotificationObserver.shared
+        //return observer.isCoverSheetVisible && !observer.isDeviceSleepModeEnabled
+        return true;
     }
     
     private var previousLine: LyricsLine?
